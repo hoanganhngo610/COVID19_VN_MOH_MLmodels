@@ -53,7 +53,7 @@ public class DataConversion {
         try (PrintWriter pw =
                      new PrintWriter(new FileWriter(s))) {
             //Column printing
-            pw.write("STT,Age,isMale,ORIGIN_EUROPE,ORIGIN_CHINA,ORIGIN_US,ORIGIN_DOMESTIC," +
+            pw.write("STT,Age,isMale,ORIGIN_EUROPE,ORIGIN_CHINA,ORIGIN_US,ORIGIN_DOMESTIC,ORIGIN_ASEAN," +
                     "symptomsToHospitalization,ONSET_FEVER,ONSET_COUGH,ONSET_TIRED,ONSET_THROAT,ONSET_RES," +
                     "MedicalHistory,Hospital,LOS\n");
             for(int i=1;i<nline;i++){
@@ -63,9 +63,9 @@ public class DataConversion {
 
                 // Nam=1;Nu=0
                 if (data.get(i)[2].equals("Nam")){
-                    pw.format("1" + ",,,,,");
+                    pw.format("1" + ",,,,,,");
                 } else {
-                    pw.format("0" + ",,,,,");
+                    pw.format("0" + ",,,,,,");
                 }
 
                 /**
