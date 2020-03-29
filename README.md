@@ -1,0 +1,2 @@
+# COVID19_VN_MOH_MLmodels
+This repository serves as a code source to all of the results submitted for review to the specialist group in modelling and predicting the outbreak of COVID-19 in Vietnam. The members of this group include Ngo Hoang Anh (Ecole Polytechnique, France), Hoang Thai Nam (Beloit College, USA) and Nguyen Tuan Khoi (The University of Melbourne, Australia). Dr. Nguyen Thu Anh (The University of Sydney, Australia) is the epidemiology supervisor for all models of this group.
