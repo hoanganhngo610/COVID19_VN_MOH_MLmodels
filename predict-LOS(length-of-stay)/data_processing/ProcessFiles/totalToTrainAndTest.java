@@ -39,7 +39,7 @@ public class totalToTrainAndTest {
                 String text;
 
                 while ((text = br.readLine()) != null) {
-                    // code goes here
+                    // Put each line of data into an array
                     String[] dataLine = text.split(",");
                     data.add(dataLine);
                     nline++;
@@ -60,12 +60,13 @@ public class totalToTrainAndTest {
         public static void write(String s, int nline, boolean isTrain) {
             try (PrintWriter pw =
                          new PrintWriter(new FileWriter(s))) {
-                //code goes here
+                // Printing variable names
                 writeLine(pw, data.get(0));
 
                 for (int i = 1; i < nline; i++) {
-                    // A recovered patient will have 17 information vars, including the number of days in hospital
-                    if ((data.get(i).length==17 && isTrain) || (data.get(i).length!=17 && !isTrain)) {
+                    // A patient under treatment will not have full number of information vars, lacking of days hospitalized
+                    if ((data.get(i).length == data.get(0).length && isTrain) ||
+                            (data.get(i).length != data.get(0).length && !isTrain)) {
                         writeLine(pw, data.get(i));
                     }
                 }
