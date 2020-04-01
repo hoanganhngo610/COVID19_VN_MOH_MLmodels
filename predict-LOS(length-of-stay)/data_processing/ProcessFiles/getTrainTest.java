@@ -23,12 +23,12 @@ public class getTrainTest {
      * @param args  System argument
      */
     public static void main(String[] args) {
-        System.out.println("Training & Testing Dataset Generator");
+        System.out.println("Training & Testing Dataset Generator v1.1");
         System.out.println("By Tuan Khoi Nguyen\n");
-        System.out.println("Enter directory to \"df_total.csv\" (Example: C:\\ContainFolder\\ ): ");
+        System.out.println("Enter directory to \"df_total.csv\" (Example: \"C:\\ContainFolder\\\" ): ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        System.out.println("Enter directory to export \"df_train.csv\" and \"df_test.csv\" (Example: C:\\ContainFolder\\ ): ");
+        System.out.println("Enter directory to export \"df_train.csv\" and \"df_test.csv\" (Example: \"C:\\ContainFolder\\\" ): ");
         scanner = new Scanner(System.in);
         String output = scanner.nextLine();
         int nline = read(input.replace("\\","\\\\")+"df_total.csv");
@@ -70,13 +70,13 @@ public class getTrainTest {
         try (PrintWriter pw =
                      new PrintWriter(new FileWriter(s))) {
             // Printing variable names
-            writeLine(pw, data.get(0));
+            writeLine(pw, data.get(0), true);
 
             for (int i = 1; i < nline; i++) {
                 // A patient under treatment will not have full number of information vars, lacking of days hospitalized
                 if ((data.get(i).length == data.get(0).length && isTrain) ||
                         (data.get(i).length != data.get(0).length && !isTrain)) {
-                    writeLine(pw, data.get(i));
+                    writeLine(pw, data.get(i), isTrain);
                 }
             }
 
@@ -90,7 +90,7 @@ public class getTrainTest {
      * @param pw        PrintWriter operation
      * @param dataLine  The line being printed
      */
-    public static void writeLine(PrintWriter pw, String[] dataLine){
+    public static void writeLine(PrintWriter pw, String[] dataLine, boolean isTrain){
         boolean isFirst=true;
         for (String str:dataLine){
             // If processing first variable of line, don't add "," before it
@@ -101,6 +101,9 @@ public class getTrainTest {
                 pw.format(",");
             }
             pw.format(str);
+        }
+        if (!isTrain){
+            pw.format(",");
         }
         pw.format("\n");
     }
