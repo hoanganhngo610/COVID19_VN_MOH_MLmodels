@@ -1,6 +1,6 @@
-# (English/[Tiếng Việt](#vnese)) Training set/testing set processor
+# (English/[Tiếng Việt](#vnese)) Training set/Testing set processor
 
-Version 1.1, released 1/4/2020.
+*Version 1.1, released 1/4/2020.*
 
 ### Requirements
 
