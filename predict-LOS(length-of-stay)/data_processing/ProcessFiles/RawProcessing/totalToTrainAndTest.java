@@ -3,7 +3,7 @@
  *  of patients under treatment, respectively named df_train and df_test as they serve the purpose of training
  *  and testing data in machine learning.
  *
- * @author Tuan Khoi Nguyen (tuankhoin@student.unimelb.edu.au
+ * @author Tuan Khoi Nguyen (tuankhoin@student.unimelb.edu.au)
  */
 
 import java.io.*;
@@ -61,13 +61,13 @@ public class totalToTrainAndTest {
             try (PrintWriter pw =
                          new PrintWriter(new FileWriter(s))) {
                 // Printing variable names
-                writeLine(pw, data.get(0));
+                writeLine(pw, data.get(0), true);
 
                 for (int i = 1; i < nline; i++) {
                     // A patient under treatment will not have full number of information vars, lacking of days hospitalized
                     if ((data.get(i).length == data.get(0).length && isTrain) ||
                             (data.get(i).length != data.get(0).length && !isTrain)) {
-                        writeLine(pw, data.get(i));
+                        writeLine(pw, data.get(i), isTrain);
                     }
                 }
 
@@ -81,7 +81,7 @@ public class totalToTrainAndTest {
      * @param pw        PrintWriter operation
      * @param dataLine  The line being printed
      */
-    public static void writeLine(PrintWriter pw, String[] dataLine){
+    public static void writeLine(PrintWriter pw, String[] dataLine, boolean isTrain){
             boolean isFirst=true;
             for (String str:dataLine){
                 // If processing first variable of line, don't add "," before it
@@ -92,6 +92,9 @@ public class totalToTrainAndTest {
                     pw.format(",");
                 }
                 pw.format(str);
+            }
+            if (!isTrain){
+                pw.format(",");
             }
             pw.format("\n");
         }
