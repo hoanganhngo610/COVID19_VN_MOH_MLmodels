@@ -1,6 +1,6 @@
 # Prediction of COVID-19 outbreak using Machine Learning and mathematical models
 
-## Vietnam Ministry of Health
+## *Courtesy of Vietnam Ministry of Health*
 
 ### Introduction
 
@@ -46,4 +46,3 @@ The structure of this repository is as follows:
 |   +---Traditional ML models // ML models
 |   +---Reports // final report in PDF
 ```
-
