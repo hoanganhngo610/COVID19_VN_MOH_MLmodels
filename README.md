@@ -1,10 +1,10 @@
-# Prediction of COVID-19 outbreak using Machine Learning and mathematical models
+# Prediction the statistics of COVID-19 outbreak in Vietnam using Machine Learning and Mathematical Models
 
 ## Vietnam Ministry of Health
 
-### introduction
+### Introduction
 
-On march 21st, a group of specialist teams in modelling and predicting the outbreak of COVID-19 in Vietnam is founded, under the management of the Vietnam ministry of health (MOH). This group consists of specialists working around the world in different fields, including medicine, epidemiology, pharmacy, computer science, mathematics, etc. Its purpose is to provide meaningful models and insight results in assisting officials on applying suitable policies to control the outbreak.
+On March 21st, a group of specialist teams in modelling and predicting the outbreak of COVID-19 in Vietnam is founded, under the management of the Vietnam ministry of health (MOH). This group consists of specialists working around the world in different fields, including medicine, epidemiology, pharmacy, computer science, mathematics, etc. Its purpose is to provide meaningful models and insight results in assisting officials on applying suitable policies to control the outbreak.
 
 ### Team members
 
