@@ -24,3 +24,35 @@ The group's work is under the supervision of Dr. Ha Anh Duc (Ministry of Health)
 
 ### About this repository
 
+```
+COVID19_VN_MOH_MLmodels
++---predict-LOS(length-of-stay)
+|   +---assets
+|   |   +---pre-processed
+|   |   \---processed
+|   +---data_processing
+|   |   +---ProcessFiles
+|   |   |   \---RawProcessing
+|   |   \---table
+|   +---GetData 1.1
+|   +---models
+|   |   +---.ipynb_checkpoints
+|   |   +---Decision Tree + Random Forest
+|   |   |   \---.ipynb_checkpoints
+|   |   +---Gradient Boosting and Extreme Gradient Boosting
+|   |   |   \---.ipynb_checkpoints
+|   |   +---Linear models
+|   |   |   \---.ipynb_checkpoints
+|   |   \---Support Vector + K Neighbors Regressor
+|   |       \---.ipynb_checkpoints
+|   \---visualization
+|       \---img
++---predict-total-VN(univariate)
+|   +---assets
+|   +---Grey models GM(1,1) and extensions
+|   +---Reports
+|   |   \---ReportFiles
+|   \---Traditional ML models
+\---Predicting total cases VN (univariate)
+    \---Reports
+```
