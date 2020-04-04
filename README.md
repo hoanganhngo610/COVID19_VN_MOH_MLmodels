@@ -19,13 +19,13 @@ The structure of this repository is as follows:
 
 ```
 +---predict-LOS(length-of-stay)
-|   +---assets                              // complete data to be proceessed
-|   +---data_processing                     // raw data and script
-|   +---GetData 1.1                         // executable program to separate training and testing data 
+|   +---assets                              // completed data to be proceessed
+|   +---data_processing                     // raw data and raw processing scripts
+|   +---GetData 1.1                         // executable program to separate data into training and testing datasets 
 |   +---models                              // ML models 
-|   +---visualization                       // visualisation
+|   +---visualization                       // model visualisation
 +---predict-total-VN(univariate)
-|   +---assets                              // complete data to be proceessed
+|   +---assets                              // completed data to be proceessed
 |   +---Grey models GM(1,1) and extensions  // implementing Grey models using R
 |   +---Traditional ML models               // ML models
 |   +---Reports                             // final report in PDF
