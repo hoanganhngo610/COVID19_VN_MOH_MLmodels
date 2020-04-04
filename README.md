@@ -8,7 +8,7 @@ On March 21st, a group of specialist teams in modelling and predicting the outbr
 
 ### About this repository
 
-This repository contains all the ML/maths model that been implemented by the group, which has also been reported to the Ministry of Health for consideration. 
+This repository contains all the ML/maths model that have been implemented by the group, which has also been reported to the Ministry of Health for consideration. 
 
 Currently, this repository include models which can predict:
 
