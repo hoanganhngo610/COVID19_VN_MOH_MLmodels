@@ -36,12 +36,12 @@ The structure of this repository is as follows:
 The team members include:
 
 - NGO Hoang Anh:
-     Department of Mathematics and Department of Economics, École Polytechnique, Institut Polytechnique de Paris, France
+    - Department of Mathematics and Department of Economics, École Polytechnique, Institut Polytechnique de Paris, France
     - Email: hoang-anh.ngo@polytechnique.edu
 - HOANG Thai Nam:
     - Department of Mathematics and Computer Science, Beloit College, USA
     - Email: hoangnt@beloit.edu
-- NGUYEN Tuan Khoi
+- NGUYEN Tuan Khoi:
     - Melbourne School of Engineering, The University of Melbourne, Australia
     - Email: tuankhoin@student.unimelb.edu.au
 
