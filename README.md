@@ -1,4 +1,4 @@
-# Prediction of COVID-19 outbreak using Machine Learning and mathematical models
+# Prediction of COVID-19 outbreak in Vietnam using Machine Learning and mathematical models
 
 ## *Courtesy of Vietnam Ministry of Health*
 
