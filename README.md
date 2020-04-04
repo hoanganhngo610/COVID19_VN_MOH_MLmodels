@@ -4,11 +4,11 @@
 
 ### Introduction
 
-On March 21st, a group of specialist teams in modelling and predicting the outbreak of COVID-19 in Vietnam is founded, under the management of the Vietnam ministry of health (MOH). This group consists of specialists working around the world in different fields, including medicine, epidemiology, pharmacy, computer science, mathematics, etc. Its purpose is to provide meaningful models and insight results in assisting officials on applying suitable policies to control the outbreak.
+On March 21st, a group of specialist teams in modelling and predicting the outbreak of COVID-19 in Vietnam is founded, under the management of the Vietnam Ministry of Health (MOH). This group consists of specialists working around the world in different fields, including medicine, epidemiology, pharmacy, computer science, mathematics, etc. Its purpose is to provide meaningful models and insight results in assisting officials on applying suitable policies to control the outbreak.
 
 ### About this repository
 
-This repository contains all the ML/maths model that been implemented by the group, which has also been reported to the Ministry of Health for consideration. 
+This repository contains all the ML/maths model that have been implemented by the group, which has also been reported to the Ministry of Health for consideration. 
 
 Currently, this repository include models which can predict:
 
