@@ -1,6 +1,6 @@
 # Predicting the statistics of COVID-19 outbreak in Vietnam using Machine Learning and Mathematical Models
 
-## Vietnam Ministry of Health
+## Courtesy of Vietnam Ministry of Health
 
 ### Introduction
 
