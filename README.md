@@ -45,5 +45,5 @@ The team members include:
     - Melbourne School of Engineering, The University of Melbourne, Australia
     - Email: tuankhoin@student.unimelb.edu.au
 
-The group's work is under the supervision of Dr. HA Anh Duc (Ministry of Health). Moreover, Dr. NGUYEN Thu Anh serves as the epidemiological supervior and data provider for the group. 
+The group's work is under the supervision of Dr. HA Anh Duc (Ministry of Health). Moreover, Dr. NGUYEN Thu Anh (The University of Sydney) serves as the epidemiological supervior and data provider for the group. 
 
