@@ -6,6 +6,9 @@
 
 - [] Download data of type csv and upload onto repository (Hoang Anh)
 
+- [] Prepare arXiv template for preprint on Overleaf
+
+- [] Connect Overleaf project to Github for consistent modification
 
 ### Week 1 - Conduct (03/09/2020 - 08/09/2020)
 
