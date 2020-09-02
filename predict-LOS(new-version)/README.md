@@ -18,7 +18,7 @@
 - [] Write about regression methods (choose & write accordingly)
 
 
-### Tuấn Khôi
+#### Tuấn Khôi
 
 
 - [] Write programs to transform data with the provided data requirement (the same as the released 1.1 version)
